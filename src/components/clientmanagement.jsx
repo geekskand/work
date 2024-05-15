@@ -25,7 +25,7 @@ const ClientManagement = () => {
     };
 
     return (
-        <section className="p-4 bg-gray-100">
+        <section className="p-4 bg-gray-100 h-[65vh]">
             <h2 className="text-2xl font-bold mb-4">Clients</h2>
             {/* Form for adding/editing client */}
             <form onSubmit={addClient} className="mb-4">

@@ -6,6 +6,7 @@ import ProjectManagement from './components/projectmanagement';
 import ProductManagement from './components/productmanagement';
 import DocumentManagement from './components/documentmanagement';
 import Footer from './components/footer';
+import WelcomeScreen from './components/welcome';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <SideDashboard />
             <div className="flex-1 flex flex-col">
               <Routes>
+                <Route index element={<WelcomeScreen/>} />
                 <Route path="/clients" element={<ClientManagement />} />
                 <Route path="/projects" element={<ProjectManagement />} />
                 <Route path="/products" element={<ProductManagement />} />

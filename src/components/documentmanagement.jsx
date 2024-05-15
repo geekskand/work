@@ -21,7 +21,7 @@ const DocumentManagement = () => {
     };
 
     return (
-        <section className="p-4">
+        <section className="p-4 h-[65vh] bg-gray-100">
             <h2 className="text-2xl font-bold mb-4">Documents</h2>
             {/* Form for adding/editing document */}
             <form onSubmit={addDocument} className="mb-4">

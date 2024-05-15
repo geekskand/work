@@ -29,7 +29,7 @@ const ProjectManagement = () => {
     };
 
     return (
-        <section className="p-4">
+        <section className="p-4 h-[65vh] bg-gray-100">
             <h2 className="text-2xl font-bold mb-4">Projects</h2>
             {/* Form for adding/editing project */}
             <form onSubmit={addProject} className="mb-4">
